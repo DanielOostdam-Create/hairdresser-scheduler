@@ -25,6 +25,18 @@ appointments.json
 ehthumbs.db
 Thumbs.db
 
+# Debug and test files
+debug-*
+test-*
+*-debug*
+*-test*
+*.html
+*.png
+
+# Development files
+old-versions-backup/
+backup/
+
 # IDE files
 .vscode/
 .idea/
