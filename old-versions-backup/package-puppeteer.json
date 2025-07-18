@@ -1,0 +1,28 @@
+{
+  "name": "hairdresser-scheduler-puppeteer",
+  "version": "2.0.0",
+  "description": "Advanced hairdresser appointment monitoring with browser automation",
+  "main": "puppeteer-scheduler.js",
+  "scripts": {
+    "install-deps": "npm install puppeteer",
+    "start": "node puppeteer-scheduler.js start",
+    "check": "node puppeteer-scheduler.js check", 
+    "earliest": "node puppeteer-scheduler.js earliest",
+    "status": "node puppeteer-scheduler.js status",
+    "setup": "npm run install-deps && echo 'Setup complete! Run: npm start'"
+  },
+  "keywords": ["appointment", "scheduler", "calendly", "automation", "puppeteer", "browser"],
+  "author": "Daniel Oostdam",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "local"
+  }
+}

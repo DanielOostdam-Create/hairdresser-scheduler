@@ -1,0 +1,21 @@
+{
+  "email": {
+    "enabled": true,
+    "smtp": {
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "secure": false,
+      "user": "your-email@gmail.com",
+      "password": "your-app-password-here"
+    },
+    "to": "your-email@gmail.com",
+    "from": "your-email@gmail.com"
+  },
+  "pushover": {
+    "enabled": false
+  },
+  "webhook": {
+    "enabled": false,
+    "url": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "hairdresser-scheduler",
+  "version": "1.0.0",
+  "description": "Automated hairdresser appointment monitoring and scheduling",
+  "main": "hairdresser-scheduler.js",
+  "scripts": {
+    "start": "node hairdresser-scheduler.js start",
+    "check": "node hairdresser-scheduler.js check",
+    "status": "node hairdresser-scheduler.js status"
+  },
+  "keywords": [
+    "appointment",
+    "scheduler",
+    "calendly",
+    "automation"
+  ],
+  "author": "Daniel Oostdam",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "nodemailer": "^7.0.3",
+    "puppeteer": "^24.9.0"
+  }
+}
