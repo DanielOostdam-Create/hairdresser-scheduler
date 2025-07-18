@@ -63,7 +63,7 @@ chmod +x fix-scheduler.sh
 1. **Monitors Calendly every hour** for Eric Kapper's appointments
 2. **Target Week**: July 7-13, 2025 (high priority alert)
 3. **Early Alerts**: Notifies for any appointment within 7 days
-4. **Email Notifications** to daniel.oostdam@gmail.com
+4. **Email Notifications** to configured email address
 5. **Auto-recovery** from connection errors
 
 ## 📧 Notification Types
